@@ -610,7 +610,7 @@ function convertToObject(paragraph) {
 
 
 //Example from: https://markdown-to-html-demo.herokuapp.com/
-const markdownStr = "# Markdown to HTML Converter\
+const originalMarkdownStr = "# Markdown to HTML Converter\
 This note demonstrates all the functionality of the **Markdown to HTML Converter** available on npm.\
 *Note: Feel free to edit this note, or even to click **clear** and start making your own note!*\
  **You can click the `Raw HTML` button at the bottom of this page to view this note as raw HTML!**\
@@ -653,5 +653,5 @@ A horizontal rule is a line that goes across the middle of the page.\
 It's sometimes handy for breaking things up.;"
 
 
-const htmlStr = convertToHTML(markdownStr);
+const htmlStr = convertToHTML(originalMarkdownStr);
 print(htmlStr)
